@@ -1,0 +1,26 @@
+.home-button {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: 10px 20px;
+    background-color: #222; /* Matches card background */
+    color: #00aaff; /* Matches section title color */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #00aaff; /* Adds a border for consistency */
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    z-index: 100; /* Ensure it stays on top of other elements */
+  }
+  
+  .home-button:hover {
+    background-color: #00aaff; /* Highlight on hover */
+    color: #ffffff; /* White text on hover */
+    transform: translateY(-3px); /* Subtle lift effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Adds a shadow */
+  }
+  
+  .home-button:active {
+    transform: translateY(1px); /* Push effect on click */
+  }
